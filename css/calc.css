@@ -1,0 +1,43 @@
+.calc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc button{
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.btn-calc{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-calc button{
+    margin: 2% 0;
+    flex-grow: 1;
+}
+
+.oper-calc{
+    display: flex;
+    flex-direction: column;
+    max-width: 15%;
+    margin-left: auto;
+}
+
+.oper-calc button{
+    margin: 2% 0;
+}
+
+.result-calc{
+    display: flex;
+    flex-direction: column;
+    max-width: 15%;
+    margin-left: auto;
+}
+
+.result-calc button{
+    margin: 2% 0;
+    flex-grow: 1;
+}
